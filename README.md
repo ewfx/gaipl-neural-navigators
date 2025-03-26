@@ -30,7 +30,7 @@ Managing IT incidents manually is time-consuming and error-prone. We aimed to au
 ## ⚙️ What It Does
 Accepts incident descriptions from users
 Sends them to Gemini AI for analysis
-Returns a suggested fix for resolution
+Returns a  fix for resolution
 Automates fixes using Ansible Playbooks
 Integrates with ServiceNow, Jira, Confluence (planned)
 
