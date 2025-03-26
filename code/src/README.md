@@ -1,1 +1,1 @@
-Code for Frontend and backend
+Code for Terraform Deployment, Frontend and backend for UI
