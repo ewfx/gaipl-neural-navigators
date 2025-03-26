@@ -1,4 +1,4 @@
-# 🚀 Project Name : GenAI Integrated Platform Support Environment
+# 🚀 Project Name : GenAI Integrated Platform Environment
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
@@ -18,7 +18,7 @@ A web-based or chatbot-powered AI assistant that provides incident resolution su
 
 
 ## 🎥 Demo
-🔗 [Live Demo](#) (if applicable) 
+🔗 [Live Demo](#) (if applicable) : UI - http://13.203.207.238:5173/
 📹 [Video Demo](#) (if applicable)  
 🖼️ Screenshots: Attached in Artifacts section of repository.
 
