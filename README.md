@@ -48,6 +48,7 @@ AI Accuracy: Tuning AI models for better recommendations
 Infrastructure Setup: Managing AWS resources with Terraform
 
 ## 🏃 How to Run
+```
 Prerequisites
 Python 3.8+
 Node.js (if using React frontend)
@@ -73,7 +74,7 @@ Deploy to AWS using Terraform
    cd gira-terraform
    terraform init
    terraform apply
-   ```
+```
 
 ## 🏗️ Tech Stack
 Frontend: React.js, Streamlit
