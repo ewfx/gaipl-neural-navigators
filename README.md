@@ -1,4 +1,4 @@
-# 🚀 Project Name
+# 🚀 Project Name : GenAI Integrated Platform Support Environment
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
@@ -14,13 +14,13 @@
 ---
 
 ## 🎯 Introduction
-A web-based or chatbot-powered AI assistant that provides incident resolution suggestions and executes predefined Ansible playbooks to automate troubleshooting. It integrates with GPT, LLaMA, or Gemini AI to analyze tickets and telemetry data while pulling relevant Knowledge Base articles and related incidents.
+A web-based or chatbot-powered AI assistant that provides incident resolution suggestions and executes predefined Ansible playbooks to automate troubleshooting. It integrates with Gemini AI to analyze tickets and telemetry data while pulling relevant Knowledge Base articles and related incidents. This automation demonstrates that if we integrate our existing tools like Confluence, ServiceNow, Jira, etc., the system can fetch relevant details as soon as a user enters a query along with server details. It would search across these platforms and provide the necessary information based on our requirements. However, we have not attempted this integration due to the terms and conditions of the Hackathon, which prohibit the use of bank-related tools, APIs, or similar resources
 
 
 ## 🎥 Demo
-🔗 [Live Demo](#) (if applicable)  
+🔗 [Live Demo](#) (if applicable) 
 📹 [Video Demo](#) (if applicable)  
-🖼️ Screenshots:
+🖼️ Screenshots: Attached in Artifacts section of repository.
 
 ![Screenshot 1](link-to-image)
 
@@ -60,17 +60,17 @@ Steps
     cd your-repo-name
 
 Set up Backend
-   cd backend
+   cd gira-backend
    pip install -r requirements.txt
    python main.py
 
  Launch Frontend (Streamlit or React)
-   cd frontend
+   cd gira-frontend
    streamlit run app.py  # For Streamlit UI  
    npm install && npm start  # For React UI
    
 Deploy to AWS using Terraform
-   cd terraform
+   cd gira-terraform
    terraform init
    terraform apply
    ```
@@ -85,7 +85,7 @@ Telemetry: OpenTelemetry, ElasticSearch
 Cloud Infrastructure: AWS (EC2, RDS, S3, IAM, CloudWatch, SNS), Terraform
 
 ## 👥 Team
- - **Ujwal** - [GitHub](#) | [LinkedIn](#)
- - **Shankar** - [GitHub](#) | [LinkedIn](#)
- -  Punnoose
- - Gaurav
+ - ** Ujwal** - [GitHub](#) | [LinkedIn](#)
+ - ** Shankar** - [GitHub](#) | [LinkedIn](#)
+ - ** Punnoose** - kppunnoose2012
+ - ** Gaurav** - sharmagd1992 
