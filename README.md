@@ -28,18 +28,17 @@ A web-based or chatbot-powered AI assistant that provides incident resolution su
 Managing IT incidents manually is time-consuming and error-prone. We aimed to automate troubleshooting by integrating AI-powered analysis with predefined playbooks to suggest and execute fixes.
 
 ## ⚙️ What It Does
-Accepts incident descriptions from users
-Sends them to Gemini AI for analysis
-Returns a  fix for resolution
-Automates fixes using Ansible Playbooks
+Accepts incident descriptions from users,
+Sends them to Gemini AI for analysis,
+Returns a  fix for resolution,
+Automates fixes using Ansible Playbooks,
 Integrates with ServiceNow, Jira, Confluence (planned)
 
 ## 🛠️ How We Built It
-Frontend: Streamlit / React.js for a user-friendly interface
-Backend: FastAPI / Flask for processing incidents
-AI Models: OpenAI API, LLaMA, Gemini for analyzing incidents
-Automation: Ansible Playbooks to apply fixes
-Telemetry: OpenTelemetry, ElasticSearch for logs and monitoring
+Frontend:  React.js for a user-friendly interface,
+Backend: FastAPI  for processing incidents,
+AI Models: Gemini for analyzing incidents,
+Automation: Ansible Playbooks to apply fixes,
 Infrastructure: Terraform for AWS deployment
 
 ## 🚧 Challenges We Faced
@@ -65,10 +64,10 @@ Set up Backend
    pip install -r requirements.txt
    python main.py
 
- Launch Frontend (Streamlit or React)
+ Launch Frontend ( React)
    cd gira-frontend
-   streamlit run app.py  # For Streamlit UI  
-   npm install && npm start  # For React UI
+   npx vite    
+   
    
 Deploy to AWS using Terraform
    cd gira-terraform
@@ -77,12 +76,10 @@ Deploy to AWS using Terraform
 ```
 
 ## 🏗️ Tech Stack
-Frontend: React.js, Streamlit
-Backend: FastAPI, Flask
-AI Models: OpenAI API, LLaMA, Gemini
-Data Processing: Pandas, LangChain, Hugging Face models
+Frontend: React.js
+Backend: FastAPI
+AI Models: Gemini
 Automation: Ansible Playbooks
-Telemetry: OpenTelemetry, ElasticSearch
 Cloud Infrastructure: AWS (EC2, RDS, S3, IAM, CloudWatch, SNS), Terraform
 
 ## 👥 Team
